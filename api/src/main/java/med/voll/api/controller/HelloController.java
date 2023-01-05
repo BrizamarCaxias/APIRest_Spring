@@ -7,12 +7,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/ola")
 public class HelloController {
-	
+
 	@GetMapping
 	public String olaMundo() {
-		
+
 		return "Olá Mundo!";
 	}
 
-	
+
 }
